@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gochain-io/gochain/v3/crypto"
-	"github.com/gochain-io/gochain/v3/p2p"
-	"github.com/gochain-io/gochain/v3/rpc"
+	"github.com/onther-tech/gochain/v3/crypto"
+	"github.com/onther-tech/gochain/v3/p2p"
+	"github.com/onther-tech/gochain/v3/rpc"
 )
 
 var (

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gochain-io/gochain/v3/ethdb"
-	"github.com/gochain-io/gochain/v3/ethdb/mock"
+	"github.com/onther-tech/gochain/v3/ethdb"
+	"github.com/onther-tech/gochain/v3/ethdb/mock"
 )
 
 func TestSegmentSet_AcquireRelease(t *testing.T) {

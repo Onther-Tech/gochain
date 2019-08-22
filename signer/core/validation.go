@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"regexp"
 
-	"github.com/gochain-io/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/common"
 )
 
 // The validation package contains validation checks for transactions

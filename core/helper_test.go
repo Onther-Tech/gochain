@@ -19,9 +19,9 @@ package core
 import (
 	"container/list"
 
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/core/types"
-	"github.com/gochain-io/gochain/v3/ethdb"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/core/types"
+	"github.com/onther-tech/gochain/v3/ethdb"
 )
 
 // Implement our EthTest Manager

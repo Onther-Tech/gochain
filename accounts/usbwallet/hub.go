@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gochain-io/gochain/v3/accounts"
-	"github.com/gochain-io/gochain/v3/log"
+	"github.com/onther-tech/gochain/v3/accounts"
+	"github.com/onther-tech/gochain/v3/log"
 	"github.com/karalabe/hid"
 )
 

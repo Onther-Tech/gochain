@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gochain-io/gochain/v3/cmd/internal/browser"
-	"github.com/gochain-io/gochain/v3/params"
+	"github.com/onther-tech/gochain/v3/cmd/internal/browser"
+	"github.com/onther-tech/gochain/v3/params"
 
-	"github.com/gochain-io/gochain/v3/cmd/utils"
+	"github.com/onther-tech/gochain/v3/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

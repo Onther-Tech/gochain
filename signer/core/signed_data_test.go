@@ -23,9 +23,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/gochain-io/gochain/v3/accounts/keystore"
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/common/hexutil"
+	"github.com/onther-tech/gochain/v3/accounts/keystore"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/common/hexutil"
 )
 
 var typesStandard = Types{

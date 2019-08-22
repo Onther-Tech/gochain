@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/gochain-io/gochain/v3/log"
+	"github.com/onther-tech/gochain/v3/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

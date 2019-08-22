@@ -29,12 +29,12 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/gochain-io/gochain/v3/cmd/utils"
-	"github.com/gochain-io/gochain/v3/eth"
-	"github.com/gochain-io/gochain/v3/netstats"
-	"github.com/gochain-io/gochain/v3/node"
-	"github.com/gochain-io/gochain/v3/params"
-	whisper "github.com/gochain-io/gochain/v3/whisper/whisperv6"
+	"github.com/onther-tech/gochain/v3/cmd/utils"
+	"github.com/onther-tech/gochain/v3/eth"
+	"github.com/onther-tech/gochain/v3/netstats"
+	"github.com/onther-tech/gochain/v3/node"
+	"github.com/onther-tech/gochain/v3/params"
+	whisper "github.com/onther-tech/gochain/v3/whisper/whisperv6"
 	"github.com/naoina/toml"
 )
 

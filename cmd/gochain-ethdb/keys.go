@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/gochain-io/gochain/v3/ethdb"
+	"github.com/onther-tech/gochain/v3/ethdb"
 )
 
 type KeysCommand struct{}

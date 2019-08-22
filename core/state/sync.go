@@ -19,9 +19,9 @@ package state
 import (
 	"bytes"
 
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/rlp"
-	"github.com/gochain-io/gochain/v3/trie"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/rlp"
+	"github.com/onther-tech/gochain/v3/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

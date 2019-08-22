@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gochain-io/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

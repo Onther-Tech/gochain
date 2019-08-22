@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/gochain-io/gochain/v3"
-	"github.com/gochain-io/gochain/v3/accounts/abi"
-	"github.com/gochain-io/gochain/v3/accounts/abi/bind"
-	"github.com/gochain-io/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3"
+	"github.com/onther-tech/gochain/v3/accounts/abi"
+	"github.com/onther-tech/gochain/v3/accounts/abi/bind"
+	"github.com/onther-tech/gochain/v3/common"
 )
 
 type mockCaller struct {

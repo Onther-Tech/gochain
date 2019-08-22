@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/gochain-io/gochain/v3/p2p"
-	"github.com/gochain-io/gochain/v3/rpc"
+	"github.com/onther-tech/gochain/v3/p2p"
+	"github.com/onther-tech/gochain/v3/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gochain-io/gochain/v3"
-	"github.com/gochain-io/gochain/v3/accounts"
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/core/types"
-	"github.com/gochain-io/gochain/v3/crypto"
-	"github.com/gochain-io/gochain/v3/log"
+	"github.com/onther-tech/gochain/v3"
+	"github.com/onther-tech/gochain/v3/accounts"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/core/types"
+	"github.com/onther-tech/gochain/v3/crypto"
+	"github.com/onther-tech/gochain/v3/log"
 	"github.com/karalabe/hid"
 )
 

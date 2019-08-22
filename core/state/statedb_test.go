@@ -30,9 +30,9 @@ import (
 
 	"gopkg.in/check.v1"
 
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/core/types"
-	"github.com/gochain-io/gochain/v3/ethdb"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/core/types"
+	"github.com/onther-tech/gochain/v3/ethdb"
 )
 
 // Tests that updating a state trie does not leak any database writes prior to

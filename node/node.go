@@ -26,16 +26,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gochain-io/gochain/v3/accounts"
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/core"
-	"github.com/gochain-io/gochain/v3/ethdb"
-	"github.com/gochain-io/gochain/v3/ethdb/s3"
-	"github.com/gochain-io/gochain/v3/flock"
-	"github.com/gochain-io/gochain/v3/internal/debug"
-	"github.com/gochain-io/gochain/v3/log"
-	"github.com/gochain-io/gochain/v3/p2p"
-	"github.com/gochain-io/gochain/v3/rpc"
+	"github.com/onther-tech/gochain/v3/accounts"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/core"
+	"github.com/onther-tech/gochain/v3/ethdb"
+	"github.com/onther-tech/gochain/v3/ethdb/s3"
+	"github.com/onther-tech/gochain/v3/flock"
+	"github.com/onther-tech/gochain/v3/internal/debug"
+	"github.com/onther-tech/gochain/v3/log"
+	"github.com/onther-tech/gochain/v3/p2p"
+	"github.com/onther-tech/gochain/v3/rpc"
 )
 
 // Node is a container on which services can be registered.

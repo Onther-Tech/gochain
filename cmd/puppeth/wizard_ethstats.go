@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gochain-io/gochain/v3/log"
+	"github.com/onther-tech/gochain/v3/log"
 )
 
 // deployNetstats queries the user for various input on deploying an netstats

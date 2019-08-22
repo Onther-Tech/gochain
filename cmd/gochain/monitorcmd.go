@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/gizak/termui"
-	"github.com/gochain-io/gochain/v3/cmd/utils"
-	"github.com/gochain-io/gochain/v3/node"
-	"github.com/gochain-io/gochain/v3/rpc"
+	"github.com/onther-tech/gochain/v3/cmd/utils"
+	"github.com/onther-tech/gochain/v3/node"
+	"github.com/onther-tech/gochain/v3/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

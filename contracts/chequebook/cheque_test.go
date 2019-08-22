@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gochain-io/gochain/v3/accounts/abi/bind"
-	"github.com/gochain-io/gochain/v3/accounts/abi/bind/backends"
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/contracts/chequebook/contract"
-	"github.com/gochain-io/gochain/v3/core"
-	"github.com/gochain-io/gochain/v3/crypto"
+	"github.com/onther-tech/gochain/v3/accounts/abi/bind"
+	"github.com/onther-tech/gochain/v3/accounts/abi/bind/backends"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/contracts/chequebook/contract"
+	"github.com/onther-tech/gochain/v3/core"
+	"github.com/onther-tech/gochain/v3/crypto"
 )
 
 var (

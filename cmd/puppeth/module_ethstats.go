@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/gochain-io/gochain/v3/log"
+	"github.com/onther-tech/gochain/v3/log"
 )
 
 // netstatsDockerfile is the Dockerfile required to build an netstats backend

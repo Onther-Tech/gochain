@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/gochain-io/gochain/v3/accounts/abi"
-	"github.com/gochain-io/gochain/v3/accounts/abi/bind"
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/core/types"
+	"github.com/onther-tech/gochain/v3/accounts/abi"
+	"github.com/onther-tech/gochain/v3/accounts/abi/bind"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

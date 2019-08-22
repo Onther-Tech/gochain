@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/gochain-io/gochain/v3/log"
+	"github.com/onther-tech/gochain/v3/log"
 	"github.com/rjeczalik/notify"
 )
 

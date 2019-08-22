@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/gochain-io/gochain/v3/p2p"
-	"github.com/gochain-io/gochain/v3/p2p/nat"
+	"github.com/onther-tech/gochain/v3/p2p"
+	"github.com/onther-tech/gochain/v3/p2p/nat"
 )
 
 const (

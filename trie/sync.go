@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gochain-io/gochain/v3/common"
-	"github.com/gochain-io/gochain/v3/common/prque"
+	"github.com/onther-tech/gochain/v3/common"
+	"github.com/onther-tech/gochain/v3/common/prque"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

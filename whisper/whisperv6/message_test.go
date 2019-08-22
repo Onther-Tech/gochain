@@ -23,9 +23,9 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/gochain-io/gochain/v3/common/hexutil"
-	"github.com/gochain-io/gochain/v3/crypto"
-	"github.com/gochain-io/gochain/v3/rlp"
+	"github.com/onther-tech/gochain/v3/common/hexutil"
+	"github.com/onther-tech/gochain/v3/crypto"
+	"github.com/onther-tech/gochain/v3/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

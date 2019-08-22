@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/gochain-io/gochain/v3/params"
+	"github.com/onther-tech/gochain/v3/params"
 )
 
 // This table defines supported forks and their chain config.
