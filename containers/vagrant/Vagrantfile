@@ -8,7 +8,7 @@ VM_RAM = 2048
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  config.vm.define "ubuntu", :primary => true do |ubuntu| 
+  config.vm.define "ubuntu", :primary => true do |ubuntu|
     ubuntu.vm.box = "ubuntu/trusty64"
     ubuntu.vm.provision "shell", :path => "provisioners/shell/ubuntu.sh"
   end
@@ -17,12 +17,12 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     debian.vm.box = "debian/jessie64"
     debian.vm.provision "shell", :path => "provisioners/shell/debian.sh"
   end
-  
-  config.vm.define "centos", :autostart => false do |centos| 
+
+  config.vm.define "centos", :autostart => false do |centos|
     centos.vm.box = "centos/7"
     centos.vm.provision "shell", :path => "provisioners/shell/centos.sh"
   end
-  
+
   config.vm.provider "virtualbox" do |vb|
     vb.memory = VM_RAM
   end
@@ -32,7 +32,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     config.vm.synced_folder ".", "/home/vagrant/sync", :disabled => true
   end
-  
+
   config.vm.synced_folder ".", "/vagrant", :disabled => true
-  config.vm.synced_folder "../../", "/home/vagrant/go/src/github.com/gochain-io/gochain"
+  config.vm.synced_folder "../../", "/home/vagrant/go/src/github.com/onther-tech/gochain"
 end
