@@ -468,6 +468,10 @@ func (c *Client) newMessage(method string, paramsIn ...interface{}) (*jsonrpcMes
 	if err != nil {
 		return nil, err
 	}
+	s := string(params)
+	if s == "null" {
+		params = []byte("[]")
+	}
 	return &jsonrpcMessage{Version: "2.0", ID: c.nextID(), Method: method, Params: params}, nil
 }
 
